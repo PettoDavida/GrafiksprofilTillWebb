@@ -1,0 +1,36 @@
+.products{
+    height: 600px;
+    display: grid;
+    grid-template-areas: " rainbow rainbow whiteperipherals "
+                         " headset mouse whiteperipherals";
+    place-content: center;
+}
+
+.item1{
+    grid-area: rainbow;
+    height: 150px;
+    width: 400px;
+    margin: 1rem;
+    
+}
+.item2{
+    grid-area: headset;
+    height: 150px;
+    width: 150px;
+    margin: 1rem;
+
+}
+.item3{
+    grid-area: mouse;
+    height: 150px;
+    width: 150px;
+    margin: 1rem;
+
+}
+.item4{
+    grid-area: whiteperipherals;
+    width: 300px;
+    height: 400px;
+    margin: 1rem;
+
+}

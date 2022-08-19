@@ -1,0 +1,25 @@
+footer{
+    width: 100%;
+    background: black;
+    min-height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.centeredFooter{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.footerLogo{
+    width: 320px;
+}
+
+.footerLI{
+    text-transform: capitalize;
+    font-size: 40px;
+    margin: 1rem 0;
+}
